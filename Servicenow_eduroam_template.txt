@@ -1,0 +1,24 @@
+We realized that the campus wi-fi is still not back to an acceptable level of performance.
+
+In the meantime, please try the following:
+- Remove Airbears2 and Calvisitor from your computer if you have saved them on it.
+- Reboot the computer, sometimes a patching process interferes with networking.
+- Make sure you are using your Eduroam "USERNAME@berkeley.edu" as the user ID for Eduroam (not your email address if it is different)
+- Make sure you are using the wi-fi key as your password for Eduroam that you create at https://sut-clearpass-1.net.berkeley.edu/guest/guest_users.php
+- Do NOT use your CalNet ID passphrase
+
+If the students in your classroom are also having connectivity issues, please provide the following guidance to your students:
+To get a good Eduroam connection, please do all of the following:
+1) Remove Airbears2 and Calvisitor from your computer or phone. Having multiple networks on the computer causes it to be confused about which to prioritize and makes your connection unstable.
+2) Reboot the computer, sometimes a patching process interferes with networking.
+3) Follow the instructions at https://youtu.be/B-WymPc0svE
+- You must use your "USERNAME@berkeley.edu" as the user ID. Do not omit "@berkeley.edu" Do not use your email address if it is different from your Calnet ID.
+- You must use the wi-fi key as your password for Eduroam that you create at https://sut-clearpass-1.net.berkeley.edu/guest/guest_users.php
+- Do NOT use your CalNet ID passphrase.
+
+Note: You can also get help connecting your particular device by going to the drop-in support location at 128 Dwinelle between 9:00 AM to 4:00 PM Monday through Friday.
+
+Students: visit https://studenttech.berkeley.edu/home
+Staff and faculty: https://technology.berkeley.edu/news/drop-it-support-facultystaff-now-available-dwinelle-hall
+
+Also, as a workaround for you, we can provide a personal wi-fi hotspot or Ethernet cable, which will enable you to get on the internet, although it does not provide access for an entire class. Please let us know when and where we could deliver the personal hotspot.
