@@ -1,0 +1,39 @@
+Home (H:)
+Used for storing user-level data
+Location for Redirected Documents, Desktop, and Favorites
+
+Group (G:)
+Used for storing unit-level data
+
+Organization (O:)
+Root for all file shares
+
+Below are the instructions for connecting to UC Berkeley file services from off-campus and on. Please let us know if you have any questions or need assistance:
+
+Please use an ITCS-supported computer or one that meets the Campus' nine requirements, listed here: https://security.berkeley.edu/MSSND-Home
+
+(Please note: If you are off-campus, you will need to have the GlobalProtect VPN software installed and connected. If you have an ITCS-supported UC Berkeley computer, it should already have GlobalProtect installed. For additional information on how to install or use the VPN, please visit https://software.berkeley.edu/bsecure-remote-access-vpn. You might also need to logoff/on or restart your computer to get the system to apply the new access settings to your logon.)
+
+FOR WINDOWS:
+1. Open File Explorer from the taskbar or the Start menu, or press the Windows logo key + E.
+2. Select This PC from the left pane. Then, on the Computer tab, select Map network drive.
+3. In the Drive list, select a drive letter. (Most folks choose G:, however, any available letter will do.)
+4. In the Folder box, type the path
+\\campus.berkeley.edu\eei-dfs\HAAS\MFE\Departmental
+To connect every time you log on to your PC, keep the Reconnect at sign-in box checked. Note: If you are not logged into your computer with your CalNet credentials, select the check box "Connecting using different credentials"
+5. Select Finish.
+6. If you receive a screen saying "Enter network credentials", then in the "User name" field, enter "CAMPUS\CalNet". Replace CalNet with your CalNet user name. In the second field, enter your CalNet passphrase, then select "OK". You should then have access to your Departmental share.
+7. Repeat the above steps to connect to your home folder: \\campus.berkeley.edu\eei-dfs\HAAS\MFE\Users\arch23
+
+FOR MAC:
+1. From Finder, click Go and then choose Connect to Server or you can type
+Command + K to get to the same menu.
+2. In the Server Address field, type the location of your Departmental share:
+smb://campus.berkeley.edu/eei-dfs/HAAS/MFE/Departmental
+3. Before hitting "Connect", click the [+] plus button to add the target server to the favorites list, this will appear directly below the server address field in the "Favorite Servers" list. Now when you want to connect to that server again, rather than entering the full target IP address or network share name, just hit Command+Shift+K and select the Favorited server from the list.
+4. Click Connect.
+5. Enter your CalNet and password and select the server volumes or shared folders you want access to.
+6. Please repeat steps 1 through 4 for connecting to the user's Home directory folder
+smb://campus.berkeley.edu/eei-dfs/HAAS/MFE/Users/arch23
+
+Note: You can also create a shortcut (alias) to the server on your desktop using the following steps: Open your Finder app, select Preferences from the Finder menu, check Connected servers and find your Departmental drive on your desktop, click on it while holding down the control key, then select Make Alias from the popup menu. If your departmental drive ever becomes disconnected, you can double-click the alias on your desktop to reopen your shared drive.
