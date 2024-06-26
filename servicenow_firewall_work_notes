@@ -1,6 +1,18 @@
-vsys: haas-wdc/haas-hsb
-rule(s): 
-name: outside_src_dst_port/service 
+vsys: haas-wdc or haas-hsb
+rule#: 150-UCB-EOS-bigfix
 
-Created the following:
-Address object: 
+SOURCE
+zone:outside
+address: UCB-EOS-bigfix
+user:any
+device:any
+zone:outside
+
+
+DESTINATION
+zone:haas-it_ws-vm
+address:
+device:any
+application:
+service: application-default
+action: allow or deny
