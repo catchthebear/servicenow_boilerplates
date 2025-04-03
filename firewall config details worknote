@@ -1,0 +1,16 @@
+Created address object: temp-shadow-136-152-32-50
+
+Created rule: outside_shadow_ssh (rule66)
+
+Added tag: ##temp (makes it easier to find)
+
+Source-
+Zone: outside
+Address: UCB-VPN_All
+
+Destination-
+Zone: haas_research1
+Address: temp-shadow-136-152-32-50
+Application: ssh
+Service: application-default
+Action: allow
