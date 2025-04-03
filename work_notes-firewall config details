@@ -1,0 +1,17 @@
+Created address object:
+Created address group
+
+Created rule: outside_ (rule#)
+
+Added tag:  (makes it easier to find)
+
+Source-
+Zone: 
+Address:
+
+Destination-
+Zone: 
+Address: 
+Application: 
+Service: application-default
+Action: allow
